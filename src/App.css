@@ -1,0 +1,67 @@
+form {
+  border: 2px solid green;
+  padding: 2rem;
+  width: 1222px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  margin: 1rem;
+}
+
+div.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+div.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+#nameval #emailval {
+  width: 100%;
+}
+
+#addrval #addr2val, #cityval, #pr, #posval {
+  width: 100%;
+}
+
+#prlabel {
+  margin-bottom: 0.8rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+input[type=checkbox] {
+  margin-left: 30rem;
+}
+
+#btn{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  display: block;
+  margin-left: 35rem
+}
+
+.opdiv {
+  border: 2px solid green;
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 1180px;
+  color: #291081;
+}
